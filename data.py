@@ -38,3 +38,31 @@ print(type(cgpa),type(height),type(weight),type(price),type(temperature),sep="\n
 print(type(100.0))
 print(type(100))
 print(type(-5.75))
+
+is_student = True
+is_logged_in = False
+is_admin = True
+print(is_student,is_logged_in,is_admin,sep="\n")
+print(type(is_student),type(is_logged_in),type(is_admin),sep="\n")
+print(True + True)#true is 1 and false is 0 so true + true = 1 + 1 = 2
+print(True + False)#true is 1 and false is 0 so true + false = 1 + 0 = 1
+print(False + False)#true is 1 and false is 0 so false + false = 0 + 0 = 0
+print(True * 5)#true is 1 and false is 0 so true * 5 = 1 * 5 = 5
+print(False * 100)#true is 1 and false is 0 so false * 100 = 0 * 100 = 0
+print(bool(0))#false is 0 so bool(0) = False
+print(bool(5))#true is 1 so bool(5) = True
+print(bool(-10))#true is 1 so bool(-10) = True
+print(bool(""))#false is 0 so bool("") = False
+print(bool("Bhanu"))#true is 1 so bool("Bhanu") = True
+print(10 > 5)#true is 1 so 10 > 5 = True
+print(5 > 10)#false is 0 so 5 > 10 = False
+print(20 == 20)#true is 1 so 20 == 20 = True
+print(20 != 20)#false is 0 so 20 != 20 = False
+print(18 >= 18)#true is 1 so 18 >= 18 = True
+print(10 <= 5)#false is 0 so 10 <= 5 = False
+print("Boolean data type is used to store True or False values.")
+print("Boolean is used for checking the condition is True or False.")
+#two types of boolean data type are True and False.
+#"true" is not a boolean data type it is a string data type because it is enclosed in double quotes.
+#True+True = 2 because true is 1 and true is 1 so true + true = 1 + 1 = 2
+#= is a assignment operator used to assign a value to a variable. where as == is a comparison operator used to compare two values and returns True or False.
