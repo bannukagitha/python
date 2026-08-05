@@ -66,3 +66,21 @@ print("Boolean is used for checking the condition is True or False.")
 #"true" is not a boolean data type it is a string data type because it is enclosed in double quotes.
 #True+True = 2 because true is 1 and true is 1 so true + true = 1 + 1 = 2
 #= is a assignment operator used to assign a value to a variable. where as == is a comparison operator used to compare two values and returns True or False.
+name = "Bhanu"
+print(name)
+college = "SRKR"
+print(college)
+# I am a student of "SRKR" college and I am studying 'CSIT' branch.
+print("I am a student of \"SRKR\" college and I am studying 'CSIT' branch.")
+print("""
+I am a student of "SRKR" college and I am studying 'CSIT' branch.
+flat no 201, Radha Krishna apartments, 3rd floor, near BSNL Telephone exchange, srirampuram,Bhimavaram, West Godavari district, Andhra Pradesh, India, Pin code : 534202.
+""")
+print(r"c:\Users\Bhanu\Desktop\python\variables.py")
+empty_string = ""
+print(type(empty_string))
+print("😊")
+print(type("123"),type(123))
+print("table header using \t tab space")
+print("Name\tAge\tCollege\tBranch")
+print("Python\\Java")#Python     Java
