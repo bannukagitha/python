@@ -44,3 +44,28 @@ print(n==m)#returns True if the input number is equal to the string "dragon" oth
 print(n is m)#returns True if the input number is the same object in memory as the string "dragon" otherwise returns False
 print("Equality operator (==) is used to compare the values of two strings and returns True or False.")
 print("Identity operator (is) is used to compare the memory address of two strings and returns True or False.")
+print("STRING METHODS")
+name = "bhanu"
+college = "SRKR Engineering College"
+text = "PyThOn Is AwEsOmE"
+print(name.upper())#returns the string in uppercase
+print(name.lower())#returns the string in lowercase
+print(name.split())#returns a list of words in the string
+print(name.replace("b","B"))#returns the string with the specified character replaced
+print(name.strip())#returns the string with leading and trailing whitespace removed
+print(college.upper())#returns the string in uppercase
+print(college.lower())#returns the string in lowercase
+print(college.split())#returns a list of words in the string
+print(college.replace("SRKR","srkr"))#returns the string with the specified character replaced
+print(college.strip())#returns the string with leading and trailing whitespace removed
+print(text.upper())#returns the string in uppercase
+print(text.lower())#returns the string in lowercase
+print(text.split())#returns a list of words in the string
+print(text.replace("PyThOn","python"))#returns the string with the specified character replaced
+print(text.strip())#returns the string with leading and trailing whitespace removed
+k=input("Enter a string: ")
+if k.lower() == "yes":
+    print("You entered yes")
+else:
+    print("You did not enter yes")
+print("upppercase() method is used to convert the string to uppercase.")
