@@ -28,3 +28,19 @@ print(text[:])#returns all characters of the string
 print(text[4:4])#returns an empty string because the start and end index are same
 print(text[20:30])#returns an empty string because the start and end index are out of range
 print(text[:100])#returns all characters of the string because the end index is out of range
+a="Python"
+b="Python"
+print(a==b)#returns True because both strings are equal
+print(a is b)#returns True because both strings are same object in memory
+print(id(a),id(b))#returns the memory address of both strings
+x="bhanu"
+y=x
+print(id(x),id(y))#returns the same memory address of both strings because both strings are same object in memory
+y="java"
+print(id(x),id(y))#now the memory address of y is different because it is assigned a new string value
+n=input("Enter a number: ")
+m="dragon"
+print(n==m)#returns True if the input number is equal to the string "dragon" otherwise returns False
+print(n is m)#returns True if the input number is the same object in memory as the string "dragon" otherwise returns False
+print("Equality operator (==) is used to compare the values of two strings and returns True or False.")
+print("Identity operator (is) is used to compare the memory address of two strings and returns True or False.")
