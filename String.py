@@ -69,3 +69,27 @@ if k.lower() == "yes":
 else:
     print("You did not enter yes")
 print("upppercase() method is used to convert the string to uppercase.")
+m = "banana"
+
+print(m.find("a"))#returns the index of the first occurrence of the specified character in the string   
+print(m.rfind("a"))#returns the index of the last occurrence of the specified character in the string
+print(m.count("a"))#returns the number of occurrences of the specified character in the string
+print(m.startswith("ba"))#returns True if the string starts with the specified character otherwise returns False
+print(m.endswith("na"))#returns True if the string ends with the specified character otherwise returns False
+print(m.find("x"))#returns -1 because the specified character is not found in the string
+print("find() method is used to find the index of the first occurrence of the specified character in the string if not in sting  returns -1.")
+print("index() method is used to find the index of the first occurrence of the specified character in the string and raises a ValueError if the character is not found.")
+print("rfind() method is used to find the index of the last occurrence of the specified character in the string if not in sting  returns -1.")
+print("count() method is used to count the number of occurrences of the specified character in the string.")
+print("startswith() method is used to check if the string starts with the specified character and returns True or False.")
+print("endswith() method is used to check if the string ends with the specified character and returns True or False.")
+k="Python Programming Language"
+print(k.find("Programming"))#returns the index of the first occurrence of the specified substring in the string
+print(k.find("Language"))#returns the index of the first occurrence of the specified substring in the string
+print(k.count("a"))#returns the number of occurrences of the specified substring in the string
+print(k.count("m"))#returns the number of occurrences of the specified substring in the string
+print(k.startswith("Python"))#returns True if the string starts with the specified substring otherwise returns False
+print(k.endswith("Language"))#returns True if the string ends with the specified substring otherwise returns False
+print(k.find("Java"))#returns -1 because the specified substring is not found in the string
+print(k.index("Java"))#raises a ValueError because the specified substring is not found in the string
+print(k.count("z"))#returns 0 because the specified substring is not found in the string
