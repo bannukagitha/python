@@ -91,5 +91,5 @@ print(k.count("m"))#returns the number of occurrences of the specified substring
 print(k.startswith("Python"))#returns True if the string starts with the specified substring otherwise returns False
 print(k.endswith("Language"))#returns True if the string ends with the specified substring otherwise returns False
 print(k.find("Java"))#returns -1 because the specified substring is not found in the string
-print(k.index("Java"))#raises a ValueError because the specified substring is not found in the string
+#print(k.index("Java"))#raises a ValueError because the specified substring is not found in the string
 print(k.count("z"))#returns 0 because the specified substring is not found in the string
