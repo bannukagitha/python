@@ -114,3 +114,24 @@ username = username.strip().lower()
 
 if username == "bhanu":#checks if the username is equal to "bhanu" after removing leading and trailing whitespace and converting to lowercase
     print("Welcome!")
+
+sentence = "I love Python programming"
+print(sentence.split())#returns a list of words in the string
+words = ["I", "love", "Python"]
+print(" ".join(words))#returns a string by joining the list of words with a space as the separator
+data = "Bhanu,20,CSIT,SRKR"
+print(data.split(","))#returns a list of values in the string by splitting the string at each comma
+date = "08-08-2026"
+print(date.split("-"))#returns a list of values in the string by splitting the string at each hyphen
+path = "C:/Users/Bhanu/Desktop/python/file.py"
+print(path.rsplit("/", 1))#returns a list of values in the string by splitting the string at the last occurrence of the specified separator
+letters = ["P", "y", "t", "h", "o", "n"]
+print("".join(letters))#returns a string by joining the list of letters with an empty string as the separator
+text4 = "Python is powerful"
+dummy = text4.split()
+print("-".join(dummy))#returns a string by joining the list of words with a hyphen as the separator
+email = "bhanu@gmail.com"
+print(email.partition("@"))#returns a tuple containing the part before the separator, the separator itself, and the part after the separator
+given_string = "Python    is     very    powerful"
+dummy1 = given_string.split()
+print("-".join(dummy1))#returns a string by joining the list of words with a hyphen as the separator
