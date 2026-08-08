@@ -149,3 +149,14 @@ print(text.strip().startswith("Python"))#returns True if the string starts with 
 print(text.split())#returns a list of words in the string
 print("-".join(text.split()))#returns a string by joining the list of words with a hyphen as the separator
 print("NOTE: The methods used in this code do not modify the original string, they return a new string with the modifications applied.")
+
+final = "  Python   is   powerful  "
+
+a = final.strip()#returns the string with leading and trailing whitespace removed
+b = final.split()#returns a list of words in the string
+c = "-".join(b)#returns a string by joining the list of words with a hyphen as the separator
+
+print(final)#returns the original string with leading and trailing whitespace
+print(a)#returns the string with leading and trailing whitespace removed
+print(b)#returns a list of words in the string
+print(c)#returns a string by joining the list of words with a hyphen as the separator
