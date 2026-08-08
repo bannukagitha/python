@@ -135,3 +135,17 @@ print(email.partition("@"))#returns a tuple containing the part before the separ
 given_string = "Python    is     very    powerful"
 dummy1 = given_string.split()
 print("-".join(dummy1))#returns a string by joining the list of words with a hyphen as the separator
+
+text = "  Python Programming  "
+
+print(text.strip())#returns the string with leading and trailing whitespace removed
+print(text.upper())#returns the string in uppercase
+print(text.lower())#returns the string in lowercase
+print(text.find("Programming"))#returns the index of the first occurrence of the specified substring in the string
+print(text.count("m"))#returns the number of occurrences of the specified character in the string
+print("Python" in text)#returns True if the specified substring is found in the string otherwise returns False
+print(text.startswith("Python"))#returns True if the string starts with the specified substring otherwise returns False
+print(text.strip().startswith("Python"))#returns True if the string starts with the specified substring after removing leading and trailing whitespace otherwise returns False
+print(text.split())#returns a list of words in the string
+print("-".join(text.split()))#returns a string by joining the list of words with a hyphen as the separator
+print("NOTE: The methods used in this code do not modify the original string, they return a new string with the modifications applied.")
