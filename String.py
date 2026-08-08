@@ -93,3 +93,24 @@ print(k.endswith("Language"))#returns True if the string ends with the specified
 print(k.find("Java"))#returns -1 because the specified substring is not found in the string
 #print(k.index("Java"))#raises a ValueError because the specified substring is not found in the string
 print(k.count("z"))#returns 0 because the specified substring is not found in the string
+
+text1 = "   Python   "
+
+print(text1.strip())#returns the string with leading and trailing whitespace removed
+print(text1.lstrip())#returns the string with leading whitespace removed
+print(text1.rstrip())#returns the string with trailing whitespace removed
+text2= "cat cat cat"
+
+print(text2.replace("cat", "dog", 2))#returns the string with the first two occurrences of the specified substring replaced
+print("45".zfill(5))#returns the string with leading zeros added to make the string length equal to the specified width
+print("Python".center(12, "-"))#returns the string centered in a string of the specified width with the specified fill character
+print("difference between strip(),replace(),is used to remove leading and trailing whitespace from the string,replace() is used to replace a specified substring with another substring in the string.")
+print("Can replace() replace only one occurrence?:YES")
+print("Which method removes tabs?:strip()")
+print("Do these methods modify the original string?:NO,they return a new string with the modifications applied.")
+username = input("Enter username: ")
+
+username = username.strip().lower()
+
+if username == "bhanu":#checks if the username is equal to "bhanu" after removing leading and trailing whitespace and converting to lowercase
+    print("Welcome!")
