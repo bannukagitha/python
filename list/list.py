@@ -27,3 +27,13 @@ M=int(input())
 C=list(map(int,input().split()))
 C.sort()
 print(C)
+a1= [10, 20, 30, 40, 50]
+print(a1[1:4])
+a2= [
+    [10, 20],
+    [30, 40],
+    [50, 60]
+]
+for i in range(len(a2)):
+  for j in range(len(a2[i])):
+    print(a2[i][j])
