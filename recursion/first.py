@@ -8,6 +8,7 @@ def linear(j,n):
     return
   print(j)
   linear(j+1,n)
+
 def main():
   n=int(input())
   i=1
